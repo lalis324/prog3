@@ -1,6 +1,3 @@
-
-package matriz;
-
 public class Operacion {
 public static double[][] suma(double [][]matA, double [][] matB) {
     
@@ -28,4 +25,9 @@ public static double[][] suma(double [][]matA, double [][] matB) {
             }}
 
      return matR;
-}}
+}
+public static double [][]producto(double [][]matA, double [][]matB) {
+    double[][] matR;
+   
+    
+}
