@@ -1,13 +1,17 @@
+
+package com.mycompany.parcial;
+
+
 import java.util.Timer;
 import java.util.TimerTask;
 
 class Temporizador extends TimerTask {
     private String mensaje;
-    private int tiempoEspera;
-   
-    public Temporizador(String mensaje, int tiempoEspera) {
+    private Timer timer;
+
+    public Temporizador(String mensaje, Timer timer) {
         this.mensaje = mensaje;
-        this.tiempoEspera = tiempoEspera;
+        this.timer = timer;
     }
 
     @Override
@@ -15,7 +19,12 @@ class Temporizador extends TimerTask {
         System.out.println(mensaje);
     }
 
-    public int getTiempoEspera() {
-        return tiempoEspera;
+    public void detener() {
+        this.cancel();
+    }
+
+    public void reiniciar(long tiempoEspera) {
+        this.cancel();
+        this.timer.schedule(new Temporizador(mensaje, timer), tiempoEspera);
     }
 }
