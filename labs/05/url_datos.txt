@@ -1,0 +1,3 @@
+https://www.datos.gov.co/Transporte/Edad-de-muertes-de-tr-nsito/9mva-8tfm
+
+Seran mostrados los datos de las  muertes de transito en Neiva, dichos datos son: fecha de los accidentes (incluyendo el dia de la semana), tipo del accidente , genero de la victima , tipo de vehiculo de la victima, y el vehiculo de la contraparte. 
