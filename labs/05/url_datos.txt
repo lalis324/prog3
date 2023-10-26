@@ -1,3 +1,4 @@
-https://www.datos.gov.co/Transporte/Edad-de-muertes-de-tr-nsito/9mva-8tfm
+https://www.datos.gov.co/Salud-y-Protecci-n-Social/Putumayenses-con-mayor-ndice-de-morbilidad-en-urge/xpc3-9fyv
 
-Seran mostrados los datos de las  muertes de transito en Neiva, dichos datos son: fecha de los accidentes (incluyendo el dia de la semana), tipo del accidente , genero de la victima , tipo de vehiculo de la victima, y el vehiculo de la contraparte. 
+
+Seran mostrados los datos de las  personas internadas con mayor índice de morbilidad en urgencias de  Putumayo , dichos datos son: procendecia del paciente , fecha de atencion , sexo y edad del paciente, nombre del diagnostico, y 	EAPB.
