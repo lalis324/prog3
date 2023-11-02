@@ -1,11 +1,7 @@
 
-package lab66;
-
+    import java.util.Random;
 
 public class Lab66 {
-    
-    public static void main(String[] args) {
-
     
     static auto[] carro;
     static Random rnd;
@@ -19,5 +15,22 @@ public class Lab66 {
         carro[1].setVelocidad(vel[rnd.nextInt(1)]);
         carro[2].setVelocidad(vel[rnd.nextInt(2)]);
         carro[3].setVelocidad(vel[rnd.nextInt(3)]);
+
     }
+
+
+static void iniciar(){
+        
+        hilo h1= new hilo(carro[0].getNombre());
+        h1.start();
+        
+        hilo h2= new hilo(carro[1].getNombre());
+        h2.start();
+        
+        hilo h3= new hilo(carro[2].getNombre());
+        h3.start();
+        
+        hilo h4= new hilo(carro[3].getNombre());
+        h4.start();
+    } 
 }
